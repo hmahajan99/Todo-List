@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+  background: #f2709c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+span:nth-child(2) {
+  border: 1.5px dotted red;
+  color: red;
+}
+
+span:nth-child(2):hover {
+  cursor: crosshair;
+}
+
+span:nth-child(1):hover {
+  cursor: pointer;
+}
+
+#first{
+  font-size: 2em;
+}
+
+#userinput {
+  border-radius: 10px;
+  border: 3px solid red;
+  outline:0;
+  text-align: center;
+  height: 2em;
+}
+
+#enter{
+  border: 3px solid red;
+  background-color: pink;
+}
+
+
+
+#logo {
+  font-family: 'Coming Soon', cursive;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 6em;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 1;
+  text-shadow: #EDEDED 3px 2px 0;
+  position: relative;
+}
+#logo:after {
+  content:"MY LIST";
+  position: absolute;
+  left: 8px;
+  top: 32px;
+}
+#logo:after {
+  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+  background-size: 4px 4px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -5;
+  display: block;
+  text-shadow: none;
+}
+
+
+.done {
+  text-decoration: line-through;
+}
