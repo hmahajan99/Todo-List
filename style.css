@@ -46,7 +46,7 @@ span:nth-child(1):hover {
   font-family: 'Coming Soon', cursive;
   font-weight: bold;
   border-radius: 10px;
-
+  outline:0;
 }
 
 
