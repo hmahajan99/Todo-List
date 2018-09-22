@@ -35,11 +35,18 @@ span:nth-child(1):hover {
   outline:0;
   text-align: center;
   height: 2em;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+
 }
 
 #enter{
   border: 3px solid red;
   background-color: pink;
+  font-family: 'Coming Soon', cursive;
+  font-weight: bold;
+  border-radius: 10px;
+
 }
 
 
